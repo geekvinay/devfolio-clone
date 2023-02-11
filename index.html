@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Nunito+Sans:wght@400;500;700;800;900&display=swapfamily=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Discover | Devfolio</title>
+  </head>
+  <body class="bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav
+      class="navBar h-[80px] px-10 bg-white flex flex-row box-border align-middle border-b-[3px] border-gray-100"
+    >
+      <!-- Icon -->
+      <a
+        href=""
+        class="flex flex-row items-center align-middle font-extrabold text-2xl text-gray-700"
+      >
+        <img
+          src="/assets/devfolioFavicon.png"
+          class="h-[35%] my-auto pr-1"
+          alt=""
+        />
+        Devfolio
+      </a>
+
+      <!-- Links -->
+      <div
+        class="links flex flex-row items-center justify-center font-[600] text-[#8e989c] px-10"
+      >
+        <a href="" class="link-button px-2">Home</a>
+        <a href="" class="link-button px-2">Blog</a>
+      </div>
+
+      <!-- End icon -->
+      <img src="/assets/avatar@3x.png" class="h-[50%] ml-auto my-auto" alt="" />
+    </nav>
+
+    <!-- Scroll Section -->
+    <section
+      class="scrollSection h-[80px] bg-white font-semibold text-[15px] text-[#3770ff] flex flex-row justify-center items-center"
+    >
+      <section
+        class="linksPart w-fit H-[80%] list-none flex flex-row px-1 py-1 bg-[#f5f7f7] rounded-lg"
+      >
+        <li class="py-4 rounded px-8 active">DISCOVER</li>
+        <li class="py-4 rounded px-8">HACKATHON</li>
+        <li class="py-4 rounded px-8">BUILDERS</li>
+      </section>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="heroSection flex flex-col items-center">
+      <section
+        class="searchSection w-[80%] bg-white h-[100px] my-[2.5rem] rounded-xl mx-auto shadow shadow-gray-200 flex flex-row justify-evenly items-center p-5"
+      >
+        <!-- This is search section -->
+        <input
+          type="text"
+          name="inputSearch"
+          id="inputSearch"
+          value="Type to begin search, or use the global shortcut"
+          class="font-medium text-[18px] px-10 py-4 h-[60px] w-[80%] bg-gray-100 text-gray-400 border border-[3px] border-gray-300 rounded-lg"
+        />
+        <button
+          class="font-mono font-bold text-2xl px-5 py-3 border text-gray-600 border-gray-500 rounded mx-3 bg-gray-200 h-[55px]"
+          style="font-family: 'Space Mono', monospace"
+        >
+          Ctrl
+        </button>
+        <span class="font-mono font-bold text-3xl text-gray-300">+</span>
+        <button
+          class="font-mono font-bold text-2xl px-5 py-3 align-middle border text-gray-600 border-gray-500 rounded mx-3 bg-gray-200 h-[55px]"
+          style="font-family: 'Space Mono', monospace"
+        >
+          K
+        </button>
+      </section>
+
+      <section
+        class="fellowships w-[80%] min-h-[80vh] rounded-xl px-3 bg-[#f7d155]"
+      >
+        <img src="/assets/fellowship-art.svg" class="rounded-xl" alt="" />
+
+        <div class="data flex flex-col px-10 py-10">
+          <h3 class="font-bold text-xl text-[#504009] tracking-[0.2rem] pb-4">
+            INTRODUCING
+          </h3>
+          <h2
+            class="font-[900] text-5xl text-[#504009] pb-8"
+            style="font-family: 'Nunito Sans', sans-serif"
+          >
+            Fellowships!
+          </h2>
+          <p
+            class="text-xl font-medium text-[#503f09d1] tracking-[0.1rem]"
+            style="font-family: 'Nunito Sans', sans-serif"
+          >
+            The best way to learn is by getting your hands dirty! Build on
+            riveting problem statements, while following curated coursework and
+            brainstorming exercises with industry experts who know what it's
+            like to be new and make mistakes.
+          </p>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer -->
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif; */
+  --nunito:'Montserrat', sans-serif;
+  --montserrat:'Nunito Sans', sans-serif; 
+  --spacemono: 'Space Mono', monospace;
+
+  --blue: #3770ff;
+
+
+  font-family: var(--nunito);
+}
+
+section.linksPart{
+  font-family: var(--nunito);
+}
+
+section.linksPart li.active{
+  background-color: var(--blue);
+  color: white;
+  font-weight: bold;
+}
+
+button.font-mono{
+  font-family: 'Space Mono', monospace;
+}
+
+section.fellowships img{
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+}
