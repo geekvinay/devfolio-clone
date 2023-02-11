@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Discover | Devfolio</title>
   </head>
-  <body class="bg-gray-100">
+  <body class="w-[100vw] box-border overflow-x-hidden">
     <!-- Navigation Bar -->
     <nav
       class="navBar h-[80px] px-10 bg-white flex flex-row box-border align-middle border-b-[3px] border-gray-100"
@@ -113,7 +113,43 @@
     </section>
 
     <!-- Footer -->
-
+    <footer class="bg-white min-h-[110vh] w-[100vw] px-20 py-10">
+      <div class="part1 flex justify-between">
+        <h1
+          class="text-6xl font-[800] w-[45vw] text-gray-900 tracking-[0.1rem]"
+          style="font-family: 'Nunito Sans', sans-serif"
+        >
+          We love <span class="text-[#81a2ef]">software</span> and the
+          <span class="text-[#eeb27b]">people</span>
+          who build them.
+        </h1>
+        <section
+          class="links flex justify-evenly text-2xl w-[45vw] text-gray-700 tracking-[0.1rem] py-10"
+          style="font-family: 'Nunito Sans', sans-serif"
+        >
+          <ul class="links">
+            <li class="linkHeader text-xl font-[700] text-gray-500">
+              COMMUNITY
+            </li>
+            <li class="linkData">Organise a hackathon</li>
+            <li class="linkData">Explore hackathons</li>
+            <li class="linkData">Brand Assets</li>
+          </ul>
+          <ul class="links">
+            <li class="linkHeader text-xl font-[700] text-gray-500">COMPANY</li>
+            <li class="linkData">About</li>
+            <li class="linkData">Blog</li>
+            <li class="linkData">Careers</li>
+          </ul>
+          <ul class="links">
+            <li class="linkHeader text-xl font-[700] text-gray-500">SUPPORT</li>
+            <li class="linkData">Help</li>
+            <li class="linkData">Status</li>
+            <li class="linkData">Contact us</li>
+          </ul>
+        </section>
+      </div>
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

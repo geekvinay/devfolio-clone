@@ -34,3 +34,11 @@ section.fellowships img{
   width: 100%;
   object-fit: cover;
 }
+
+li.linkHeader{
+  @apply py-2;
+}
+
+li.linkData{
+  @apply py-1 text-[1.2rem];
+}
